@@ -5,788 +5,279 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+  <title>Thrinesh | Portfolio</title>
 
-  <!-- 
-    - primary meta tag
-  -->
-  <title>Portfolio demo</title>
-  <meta name="title" content="">
-  <meta name="description" content="">
-
-  <!-- 
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
-
-  <!-- 
-    - custom css link
-  -->
-  <link rel="stylesheet" href="styles.css">
-
-  <!-- 
-    - google font link
-  -->
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body id="top">
 
-   
+  <!-- Header -->
+  <header class="header">
+    <div class="container navbar">
+      <a href="#top" class="logo">PralayaKaveri Thrinesh<span style="color:var(--accent);"></span></a>
 
+      <button class="menu-toggle" aria-label="Toggle Menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
 
-  <header class="header" data-header>
-    <div class="container">
-      <h1 >
-      < PralayaKaveri Thrinesh ></h1>
-  
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <span></span>
-            <a href="#home" class="navbar-link" data-nav-link>Skills</a>
-          </li>
-
-          <li class="navbar-item">
-            <span></span>
-            <a href="#about" class="navbar-link" data-nav-link>Open source</a>
-          </li>
-
-          <li class="navbar-item">
-            <span></span>
-            <a href="#courses" class="navbar-link" data-nav-link>Projects</a>
-          </li>
-
-          <li class="navbar-item">
-            <span></span>
-            <a href="#Events" class="navbar-link" data-nav-link>Achievements</a>
-          </li>
-
-          <li class="navbar-item">
-            <span></span>
-            <a href="#" class="navbar-link" data-nav-link>Blogs</a>
-          </li>
-          <li class="navbar-item">
-            <span></span>
-            <a href="#" class="navbar-link" data-nav-link>Talks</a>
-          </li>
-          <li class="navbar-item">
-            <span></span>
-            <a href="#" class="navbar-link" data-nav-link>Contact me</a>
-          </li>
-          <span> </span>
-        </ul>
-    
-
-      <div class="overlay" data-nav-toggler data-overlay></div>
-
+      <ul class="nav-list">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
     </div>
   </header>
 
+  <main>
 
-
-
-
-   <!-- 
-        - # main layout
-      -->
-
-      <section class="section hero has-bg-image" id="home" aria-label="home">
-     
-        <div class="container">
-
-          <div class="hero-content">
-
-            <h1 class="h2 section-title">
-              Hi all I'm <span class="span">Thrinesh</span>👋
-            </h1>
-
-            <p class="hero-text">
-              
-             A passionate Software developer 🚀 having an experience building web and mobile application with JavaScript/Reactjs/nodejs/react native and some other cool libraries and framework
-            </p>
-
-            <a href="#" class="btn has-before">
-              <span class="span">Contact me</span>
-
-              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-            </a>
-          
-            <a href="#" class="btn-resume">
-              <span class="span"></span>
-
-             
-            </a>
-          
-        </div>
-
-        <figure class="Thrinesh1">
-        <img src="index1.jpg" width="630" height="420" alt="" class="Thrinesh2">
-</figure>
-        </div>
-      </section>
-      
-
-
-      <!-- 
-        - #CATEGORY
-      -->
-
-      <section class="section category" aria-label="category">
-        <div class="container">
-
-        
-          <p class="section-subtitle"> </p>
-
-          <h2 class="h2 section-title">
-            <span class="span"> </span>  
-          </h2>
-
-          <p class="section-text">
-          
+    <!-- Hero Section -->
+    <section class="section hero" id="home">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h1>Hi, I'm <span class="text-gradient">Thrinesh</span> <span class="wave">👋</span></h1>
+          <p>
+            A passionate Software Developer 🚀 building efficient web and mobile applications.
+            Experienced with JavaScript, React, Node.js, and scaling tech solutions.
           </p>
-
+          <div style="display: flex; gap: 15px;">
+            <a href="#contact" class="btn">Contact Me</a>
+            <a href="#projects" class="btn btn-outline">View Work</a>
           </div>
-          </section>
-
-
-
-
-      <!-- 
-        - #ABOUT
-      -->
-
-      <section class="section about" id="about" aria-label="about">
-        <div class="container">
-
-          
-        <figure class="">
-          <img src="index.jpg" width="630" height="420" alt="" class="">
-           </figure>
-          
-          <div class="about-content">
-
-            <h2 class="h2 section-title"><span class="span">What i done</span></h2>
-
-            <h2 class="h2 section-title">
-             <span class="span"></span> 
-            </h2>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-            <link rel="stylesheet" href="style.css">
-            <p class="section-text">
-              CRAZY APPLICATIONS BY THRINESH
-              <div class="social-icons">
-                <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
-                <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
-                <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
-            </div>
-            
-            </p>
-
-            <ul class="about-list">
-
-              <li class="about-item">
-                <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
-
-                <span class="span">I KNOW ABOUT THE C ,C++,JAVA,HTML,CSS AND A BASIC INTRODUCTION ABOUT THE JAVA SCRIPT</span>
-              </li>
-
-              <li class="about-item">
-                <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
-
-                <span class="span">I DONE MANY APPLICATIONS IN JAVA LIKE CALC,BASIC PAGE OF WHATSAPP AND CALENDAR APPLICATION</span>
-              </li>
-
-              <li class="about-item">
-                <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
-
-                <span class="span">IM DONE TWO INTERNSHIPS IN CODSOFT one is the JAVA PROGRAMMING and another one is the WEBDEVELOPMENT</span>
-              </li>
-
-            </ul>
-          </div>
-
         </div>
-      </section>
-
-      <section class="section about" id="about" aria-label="about">
-        <div class="container">
-
-        
-          <div class="about-content">
-
-            <h2 class="h2 section-title"><span class="span">My Skills</span></h2>
-      
-
-          <p>WEB Development</p>
-          <div class="container">
-          <div class="skills html">90%</div>
-          </div>
-         
-            <span> ..... </span>
-              <div class="Thrinesh2"></div>
-                      <p>JAVA AND DATA STRUCTURES IN JAVA</p>
-                  <div class="container">
-             <div class="skills css">80%</div>
-             </div>
-                <span>.......  </span>
-               <p>C ,C++,DATA STRUCTURES IN C</p>
-              <div class="container">
-              <div class="skills js">65%</div>
-                </div>
-                <span>.......  </span>
-                <p>JavaScript,R AND GIT</p>
-                <div class="container">
-                <div class="skills java">40%</div>
-                </div>
-          </div>
-      
-          
-        <figure class="effcy1">
-          <img src="h.png" width="630" height="420" alt="" class="effcy2">
-           </figure>
-
+        <div class="hero-img-box">
+          <!-- Using existing image -->
+          <img src="index1.jpg" alt="Thrinesh" class="hero-img">
         </div>
-      </section>
-
-<!--
-      <section class="section about" id="about" aria-label="about">
-        <div class="container">
-
-          <div class="about-content">
-
-            <h2 class="h1 section-title"><span class="span1">Big Projects</span></h2>
-
-            <p>
-             <span class="span">SOME STARTUPS AND COMPANIES THAT I HELP TO CREATE THEIR TECH</span> 
-            </p>
-
-
-           </div>
-           <figure class="Thrinesh11">
-            <img src="2pic.jpg" width="100" height="100" alt="" class="Thrinu11">
-          </figure>
-      
-        <figure class="Thrinesh">
-          <img src="1pic.jpg" width="100" height="100" alt="" class="Thrinu">
-  </figure>
-  
-
-          </section>
-          -->
-
-      <!-- 
-        - #COURSE
-      -->
-
-      <section class="section course" id="courses" aria-label="course">
-   
-        <div class="container">
-
-          <p class="section-subtitle"></p>
-
-          <h2 class="h2 section-title">Acheivements And Certifications 🏆</h2>
-          <p class="section-title">ACHIEVEMENTS,CERTIFICATIONS AWARD LETTERS AND SOME COOL STUFF THAT HAVE DONE</p>
-          <ul class="grid-list">
-
-            <li>
-              <div class="course-card">
-
-                <figure class="card-banner img-holder" style="--width: 410; --height: 300;">
-                  <img src="CERTFICATE1.PNG" width="370" height="220" loading="lazy"
-                    alt="Build Responsive Real- World Websites with HTML and CSS" class="img-cover">
-                </figure>
-
-                
-
-                <div class="card-content">
-<!--
-                  <span class="badge">Beginner</span>
--->
-                  <h3 class="h3">
-                    <a href="#" class="card-title">HTML Tutorial</a>
-                  </h3>
-                  <P>
-                   I'm successfully completed my HTML Tutorial in Greate Learning Academay
-                  </P>
-                  <p>.......</p>
-                  <data class="price" value="700">Learning HTML</data>
-                  <ul class="card-meta-list">
-                    
-
-                    <li class="card-meta-item">
-                      <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="span">Certification</span>
-                    </li>
-
-                    <li class="card-meta-item">
-                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="span">Award Letter</span>
-                    </li>
-                    
-                  </ul>
-                  <data class="" value="700">HTML Tutorial</data>
-                </div>
-
-              </div>
-            </li>
-            
-            <li>
-              <div class="course-card">
-
-                <figure class="card-banner img-holder" style="--width: 300; --height: 220;">
-                  <img src="DS in C.jpg" width="370" height="120" loading="lazy"
-                    alt="Java Programming Masterclass for Software Developers" class="img-cover">
-                </figure>
-
-                
-
-                <div class="card-content">
-
-              
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">C-Data Structures</a>
-                  </h3>
-
-                  <p>
-                    I'm successfully completed my  Data Structures in C in Greate Learning Academay
-                  </p>
-                 <div class="span">
-                  <p> ........................... </p></div>
-                  <data class="price" value="700">Data Structures in C</data>
-                  <ul class="card-meta-list">
-
-                    <li class="card-meta-item">
-                    
-                      <span class="span"></span>
-                    </li>
-
-                    <li class="card-meta-item">
-                      
-                      <span class="span"></span>
-                    </li>
-
-                  </ul>
-                    
-                 <!-- <ul class="card-meta-list">
-
-                    <li class="card-meta-item">
-                      <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="span">15 Lessons</span>
-                    </li>
-
-                    <li class="card-meta-item">
-                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="span">35 Students</span>
-                    </li>
-
-                  </ul>
-                -->
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="course-card">
-
-                <figure class="card-banner img-holder" style="--width: 300; --height: 220;">
-                  <img src="css.jpg" width="270" height="220" loading="lazy"
-                    alt="The Complete Camtasia Course for Content Creators" class="img-cover">
-                </figure>
-
-                
-
-                <div class="card-content">
-
-                
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">CSS Tutorial</a>
-                  </h3>
-
-                  <p>
-                    I'm successfully completed my CSS Tutorial in Greate Learning Academay  
-                  </p>
-
-                  <data class="price" value="700">CSS Tutorial</data>
-                  <ul class="card-meta-list">
-                    
-
-                    <li class="card-meta-item">
-                      <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="span">Certification</span>
-                    </li>
-
-                    <li class="card-meta-item">
-                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="span">Award Letter</span>
-                    </li>
-                    
-                  </ul>
-                </div>
-
-              </div>
-            </li>
-
-
-            <li>
-              <div class="course-card">
-
-                <figure class="card-banner img-holder" style="--width: 300; --height: 220;">
-                  <img src="web.jpg" width="270" height="220" loading="lazy"
-                    alt="The Complete Camtasia Course for Content Creators" class="img-cover">
-                </figure>
-
-                
-
-                <div class="card-content">
-
-                
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">WEB DEVELOPMENT</a>
-                  </h3>
-
-                  <p>
-                   I'm successfully completed 4 weeks of virtual internship program in web development with wonderful remarks at CODSOFT
-                  </p>
-
-                  <data class="price" value="700">View Google Assistant Action</data>
-                  <ul class="card-meta-list">
-                    
-
-                    <li class="card-meta-item">
-                      <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="span">Certification</span>
-                    </li>
-
-                    <li class="card-meta-item">
-                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="span">Award Letter</span>
-                    </li>
-                    
-                  </ul>
-                </div>
-
-              </div>
-            </li>
- 
-            
-            <li>
-           
-              <div class="course-card">
-
-                <figure class="card-banner img-holder" style="--width: 300; --height: 220;">
-                  <img src="java.jpg" width="270" height="220" loading="lazy"
-                    alt="The Complete Camtasia Course for Content Creators" class="img-cover">
-                </figure>
-
-                
-
-                <div class="card-content">
-
-                
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Java Internship</a>
-                  </h3>
-
-                  <p>
-                    I'm successfully completed 4 weeks of virtual internship program in Java Internship with wonderful remarks at CODSOFT
-                 
-                  </p>
-
-                  <data class="price" value="700">View Google Assistant Action</data>
-                  <ul class="card-meta-list">
-                    
-
-                    <li class="card-meta-item">
-                      <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="span">Certification</span>
-                    </li>
-
-                    <li class="card-meta-item">
-                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="span">Award Letter</span>
-                    </li>
-                    
-                  </ul>
-                </div>
-
-              </div>
-            </li>
-
-
-          </ul>
-         <!--
-          <a href="#" class="btn has-before">
-            <span class="span">Browse more courses</span>
-
-            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-          </a>
--->
-          </ul>
-        </div>
-      </section>
-   
-     
-        
-      <section class="section about" id="about" aria-label="about">
-        <div class="container">
-      <div class="about-content">
-
-        <h2 class="h1 section-title"><span class="span1">Big Projects</span></h2>
-        <h2 class="h1 section-title"><span class="span1">.....................</span></h2>
-       </div>
-       </div>
-       <div class="course-card">
-       <figure class="card-banner img-holder" style="--width: 800; --height: 400;">
-        <video src="PRO-ACTIVE BUSINESS SOLUTIONS A FUTURE LEARNING - Google Chrome 2024-02-11 06-40-41.mp4" width="270" height="220" loading="lazy"
-          alt="The Complete Camtasia Course for Content Creators" class="img-cover"></video>
-      </figure>
-    </div>
-
-      
-       <li>
-        <div class="course-card">
-
-
-
-          <div class="card-content">
-
-          
-
-            <h3 class="h3">
-              <a href="#" class="card-title">creating a best study course for students</a>
-            </h3>
-
-            <p>
-            In that we have a different courses to learn very easily and i saw everything in the web app its very nice to Learning 
-            </p>
-
-            <data class="price" value="700"></data>
-            <ul class="card-meta-list">
-              
-
-              <li class="card-meta-item">
-                <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
-
-                <span class="span">This was very nice to learning and its just like a learning with the kid</span>
-              </li>
-
-              <li class="card-meta-item">
-                <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
-
-                <span class="span"></span>
-              </li>
-              
-            </ul>
-          </div>
-
-        </div>
-      </li>
-       </section>
-        <div class="container">
-          <ul class="grid-list">
-
-            </UL>
-        
-
-<!--
-  Talks
--->
-<section class="section about" id="about" aria-label="about">
-  <div class="container">
-    <figure class="effcy1">
-      <img src="h.png" width="630" height="420" alt="" class="effcy2">
-       </figure>
-  
-  
-    <div class="about-content">
-
-      <h2 class="h2 section-title"><span class="span">Percentages</span></h2>
-
-<p>................</p>
-    <p>SSC</p>
-    <div class="container">
-    <div class="skills html">90%</div>
-    </div>
-   
-      <span> ..... </span>
-        <div class="Thrinesh2"></div>
-                <p>Bachelaor of Technology</p>
-            <div class="container">
-       <div class="skills css">79%</div>
-       </div>
-          <span>.......  </span>
-         <p>Intermediate</p>
-        <div class="container">
-        <div class="skills js">71%</div>
-          </div>
-          
-    </div>
-
-    
-  
-  </div>
-</section>
-
-     
-<section class="section course" id="courses" aria-label="course">
-   
-  <div class="container">
-
-    <p class="section-subtitle"></p>
-
-    <h2 class="h2 section-title">Talks</h2>
-    <p class="section-title"> I LOVE TO SHARE MY LIMITED KNOWLWDGE AND GET A SPEAKER BADGE </p>
-    <ul class="grid-list">
-
-      
-      <li>
-        <div class="course-card">
-
-          <figure class="card-banner img-holder" style="--width: 300; --height: 220;">
-            <img src="Google_Assistant_logo.svg.png" width="370" height="120" loading="lazy"
-              alt="Java Programming Masterclass for Software Developers" class="img-cover">
-          </figure>
-
-          
-
-          <div class="card-content">
-
-        
-
-            <h3 class="h3">
-              <a href="#" class="card-title">Build Actions For Google Assistant</a>
-            </h3>
-
-            <p>
-             Codelab at GDG DevFest Karachi 2019
-            </p>
-            <ul class="grid-list">
-              <li>
-           <button>slides</button>
-           </li>
-           <li>
-           <button>slides</button>
-          </li>
-          </ul>
-           
-              <!-- <ul class="card-meta-list">
-
-              <li class="card-meta-item">
-                <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
-
-                <span class="span">15 Lessons</span>
-              </li>
-
-              <li class="card-meta-item">
-                <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
-
-                <span class="span">35 Students</span>
-              </li>
-
-            </ul>
-          -->
-
-          </div>
-
-        </div>
-      
-            </ul>
-          </div>
-
-        </div>
-      </li>
-
-    </ul>
-    </div>
-    </section>     
-
-    
-    <section class="section hero has-bg-image" id="home" aria-label="home">
-     
-      <div class="container">
-
-        <div class="hero-content">
-
-          <h1 class="h1 section-title">
-            Reach Out to me!<span class="span"></span>
-          </h1>
-
-          <p class="hero-text">
-           Discuss a project or just want to say hi my inbox is oepn for all 
-          </p>
-          <h1 class="h2 section-title">
-            " web designer and java coder and the C,DataStructures in C,R ,Git and java DataStructure...
-            now playing with the ""Python"" " <span class="span"></span>
-          </h1>
-          <p class="hero-text">
-            📍Sullurpeta ,India 
-          </p>
-           <p class="hero-text">
-          Open for Opportunities: Yes 
-          </p>
-          <div class="social-icons">
-            <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
-            <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
-            <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
-        </div>
-      </div>
-
-      <figure class="Thrinesh12">
-      <img src="Thrinesh123.jpeg" width="430" height="220" alt="" class="Thrinesh12">
-</figure>
       </div>
     </section>
-    
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About <span class="text-gradient">Me</span></h2>
+          <p style="color: var(--text-muted);">My journey in tech</p>
+        </div>
+
+        <div class="hero-content" style="align-items: flex-start;">
+          <div class="hero-img-box">
+            <img src="index.jpg" alt="About Me"
+              style="width: 100%; border-radius: var(--radius-md); box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+          </div>
+          <div>
+            <h3 style="font-size: 1.5rem; margin-bottom: 20px;">What I Do</h3>
+            <p style="color: var(--text-muted); margin-bottom: 20px;">
+              I have a strong foundation in C, C++, Java, HTML, and CSS, with a growing expertise in modern JavaScript
+              frameworks.
+              I've built various applications ranging from utility tools like Calculators and Calendars to web
+              prototypes.
+            </p>
+
+            <h4 style="margin-bottom: 10px;">Internships & Experience</h4>
+            <ul style="list-style: none; display: flex; flex-direction: column; gap: 15px;">
+              <li
+                style="display: flex; gap: 10px; align-items: center; background: var(--bg-alt); padding: 15px; border-radius: var(--radius-md); border: 1px solid var(--glass-border);">
+                <i class="fa-solid fa-code" style="color: var(--accent); font-size: 1.2rem;"></i>
+                <div>
+                  <strong>Java Programming Intern</strong>
+                  <span style="display: block; font-size: 0.85rem; color: var(--text-muted);">CodSoft - 4 Weeks</span>
+                </div>
+              </li>
+              <li
+                style="display: flex; gap: 10px; align-items: center; background: var(--bg-alt); padding: 15px; border-radius: var(--radius-md); border: 1px solid var(--glass-border);">
+                <i class="fa-solid fa-laptop-code" style="color: var(--secondary); font-size: 1.2rem;"></i>
+                <div>
+                  <strong>Web Development Intern</strong>
+                  <span style="display: block; font-size: 0.85rem; color: var(--text-muted);">CodSoft - 4 Weeks</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">My <span class="text-gradient">Skills</span></h2>
+          <p style="color: var(--text-muted);">Technologies I work with</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <i class="fa-brands fa-html5 skill-icon"></i>
+            <h3>HTML5</h3>
+            <p style="color: var(--text-muted);">90% Proficiency</p>
+          </div>
+          <div class="skill-card">
+            <i class="fa-brands fa-css3-alt skill-icon"></i>
+            <h3>CSS3</h3>
+            <p style="color: var(--text-muted);">80% Proficiency</p>
+          </div>
+          <div class="skill-card">
+            <i class="fa-brands fa-js skill-icon"></i>
+            <h3>JavaScript</h3>
+            <p style="color: var(--text-muted);">65% Proficiency</p>
+          </div>
+          <div class="skill-card">
+            <i class="fa-brands fa-java skill-icon"></i>
+            <h3>Java</h3>
+            <p style="color: var(--text-muted);">40% Proficiency</p>
+          </div>
+          <div class="skill-card">
+            <i class="fa-brands fa-git-alt skill-icon"></i>
+            <h3>Git & GitHub</h3>
+            <p style="color: var(--text-muted);">Version Control</p>
+          </div>
+          <!-- Added C/C++ based on previous content -->
+          <div class="skill-card">
+            <i class="fa-solid fa-c skill-icon"></i>
+            <h3>C / C++</h3>
+            <p style="color: var(--text-muted);">Data Structures</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Big <span class="text-gradient">Projects</span></h2>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- Project 1 -->
+          <div class="project-card">
+            <img src="pro-active.png" alt="Pro-Active Business Solutions" class="project-img">
+            <div class="project-content">
+              <h3 class="project-title">Pro-Active Business Solutions</h3>
+              <p class="project-desc">A future learning platform. Video presentation available.</p>
+              <a href="#" class="btn-outline" style="padding: 8px 20px; font-size: 0.9rem;">View Project</a>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <!-- Using one of the certificate images as placeholder or general tech image -->
+            <img src="study_course_app.png" alt="Study Course" class="project-img">
+            <div class="project-content">
+              <h3 class="project-title">Student Study Course App</h3>
+              <p class="project-desc">A web app designed to make learning easy and interactive for students.</p>
+              <a href="#" class="btn-outline" style="padding: 8px 20px; font-size: 0.9rem;">View Project</a>
+            </div>
+          </div>
 
 
-    
-  <!-- 
-    - #BACK TO TOP
-  -->
 
-  <a href="#top" class="back-top-btn" aria-label="back top top" data-back-top-btn>
-    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
-  </a>
+        </div>
+      </div>
+    </section>
 
+    <!-- Achievements Section -->
+    <section class="section skills-section" id="achievements">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Certifications & <span class="text-gradient">Awards</span></h2>
+          <p style="color: var(--text-muted);">Recognition for my work</p>
+        </div>
 
+        <div class="projects-grid">
 
+          <div class="project-card">
+            <img src="CERTFICATE1.PNG" alt="HTML Certificate" class="project-img">
+            <div class="project-content">
+              <h3 class="project-title">HTML Tutorial</h3>
+              <p class="project-desc">Great Learning Academy</p>
+            </div>
+          </div>
 
+          <div class="project-card">
+            <img src="DS in C.jpg" alt="DS Certificate" class="project-img">
+            <div class="project-content">
+              <h3 class="project-title">Data Structures in C</h3>
+              <p class="project-desc">Great Learning Academy</p>
+            </div>
+          </div>
 
-  <!-- 
-    - custom js link
-  -->
-  <script src="./assets/js/script.js" defer></script>
+          <div class="project-card">
+            <img src="css.jpg" alt="CSS Certificate" class="project-img">
+            <div class="project-content">
+              <h3 class="project-title">CSS Tutorial</h3>
+              <p class="project-desc">Great Learning Academy</p>
+            </div>
+          </div>
 
-  <!-- 
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+          <div class="project-card">
+            <img src="web.jpg" alt="Web Dev Internship" class="project-img">
+            <div class="project-content">
+              <h3 class="project-title">Web Development Internship</h3>
+              <p class="project-desc">CodSoft - 4 Weeks</p>
+            </div>
+          </div>
 
+          <div class="project-card">
+            <img src="java.jpg" alt="Java Internship" class="project-img">
+            <div class="project-content">
+              <h3 class="project-title">Java Internship</h3>
+              <p class="project-desc">CodSoft - 4 Weeks</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <h2 class="section-title">Get In <span class="text-gradient">Touch</span></h2>
+        <p style="max-width: 600px; margin: 0 auto 30px; color: var(--text-muted);">
+          Discuss a project or just want to say hi? My inbox is open for all!
+          Currently playing with Python and exploring new opportunities.
+        </p>
+
+        <p class="hero-text">📍 Sullurpeta, India</p>
+
+        <div class="social-links">
+          <a href="#" class="social-icon"><i class="fa-brands fa-github"></i></a>
+          <a href="#" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" class="social-icon"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+
+        <figure style="margin-top: 50px;">
+          <img src="Thrinesh123.jpeg" alt="Thrinesh"
+            style="max-width: 300px; border-radius: 20px; border: 2px solid var(--accent);">
+        </figure>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 PralayaKaveri Thrinesh. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
